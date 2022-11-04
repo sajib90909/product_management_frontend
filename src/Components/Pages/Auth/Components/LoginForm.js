@@ -5,10 +5,7 @@ import AppButton from '../../../Helpers/Commons/Buttons/AppButton';
 import AppInput from '../../../Helpers/Commons/Inputs/AppInput';
 
 export default function LoginForm() {
-    const [ formData, setFormData ] = useState({
-        email: 'sajib2717@gmail.com',
-        password: '12345678'
-    })
+    const [ formData, setFormData ] = useState({})
     const [ btnLoading, setBtnLoading ] = useState(false)
 
     const [ error, setError ] = useState()

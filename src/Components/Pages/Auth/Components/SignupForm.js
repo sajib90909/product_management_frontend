@@ -5,13 +5,7 @@ import AppButton from "../../../Helpers/Commons/Buttons/AppButton";
 import AppInput from "../../../Helpers/Commons/Inputs/AppInput";
 
 export default function SignupForm() {
-    const [ formData, setFormData ] = useState({
-        email: "sajib2717@gmail.com",
-        name: "sajib",
-        organization: "mir",
-        password: "12345678",
-        password_confirmation: "12345678",
-    })
+    const [ formData, setFormData ] = useState({})
 
     const navigate = useNavigate()
     
